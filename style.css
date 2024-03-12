@@ -1,0 +1,185 @@
+body{
+  margin: 0;
+
+  min-height: 99vh;
+}
+
+header{
+  background-color: white;
+  color: black;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header div {
+  font-weight: bold; 
+  font-size: 16px; 
+}
+
+header button{
+  background-color: #04AA6D;
+  border: 0;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+.search-container {
+  max-width: 300px;
+}
+
+.search-container input[type="text"] {
+  width: 90%;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 20px; 
+  outline: none; 
+  font-family: italic;
+}
+
+.search {
+  border: 1px black;
+  border-radius: 5px;
+  height: 20px;
+  width: 35%;
+  padding: 3px 25px 3px 35px;
+  outline: 0;
+  background-color: white;
+}
+
+.start-t{
+  display: flex;
+  padding: 6px;
+  gap: 30px;
+}
+
+.end-t{
+  display: flex;
+  padding: 6px;
+  gap: 30px;
+}
+
+.link{
+  padding: 8px;
+}
+
+.bar {
+  background-color:  black;
+  height: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.bar-course {
+  padding: 5px 10px; /* Add padding to the buttons */
+  border: none;
+  background-color: black; /* Set button background color to black */
+  color: white; /* Set text color to white */
+  cursor: pointer;
+  
+}
+.bar-course:hover {
+  background-color: #04AA6D; /* Darken the background color on hover */
+  
+}
+
+
+
+.container {
+  display: flex;
+  height: 75vh;
+  flex-wrap: nowrap;
+}
+
+.flex-tutorial, .flex-paragraph, .flex-banner {
+  padding: 20px;
+}
+.flex-tutorial{
+  margin: 7px;
+  flex: 1;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
+.flex-paragraph{
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  background-color: white;
+}
+
+.flex-banner {
+  display: flex;
+  flex: 1; 
+  padding: 20px;
+  justify-content: end; 
+}
+
+.flex-tutorial h2, .flex-paragraph h2 {
+  margin-top: 0; 
+}
+
+.flex-tutorial ul {
+  list-style-type: none;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  padding: 0;
+}
+
+.flex-tutorial ul li {
+  margin-bottom: 10px;
+}
+
+.flex-tutorial ul li a {
+  color: #333;
+}
+
+.flex-paragraph h2{
+  padding: 15px;
+  font-size: 60px;
+  flex-wrap: wrap;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.flex-paragraph h3{
+  padding: 15px;
+  font-size: 30px;
+  flex-wrap: wrap;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.flex-paragraph p{
+  padding: 10px;
+  flex-wrap: wrap;
+  font-family: Consolas,Menlo,"courier new",monospace;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.flex-paragraph p {
+  margin: 0 0 10px 0; 
+
+}
+
+.divider {
+  border: none;
+  border-top: 0.2px solid rgba(0, 0, 0, 0.151); 
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.media-rule {
+  color: red; /* Change the color of @media text to red */
+}
+
+
+
+
